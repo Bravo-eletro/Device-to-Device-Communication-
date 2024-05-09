@@ -9,8 +9,8 @@
 
 
 // WiFi credentials
-const char* ssid = "Swapnonil"; // Cryptappz_Lab // Swapnonil // TP-LINK_612A
-const char* password = "$ubho&$hreya"; // cryp98745 // $ubho&$hreya  // 19839448
+const char* ssid = "Your SSID";
+const char* password = "Your Password"; 
 
 
 // Web server
