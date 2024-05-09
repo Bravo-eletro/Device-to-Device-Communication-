@@ -1,37 +1,21 @@
 // This is a Client 2. Code Run on ESP8266
-// written on : 29/ 04 /2024
+
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
 // WiFi credentials
-const char* ssid = "Swapnonil"; // Cryptappz_Lab // Swapnonil // TP-LINK_612A
-const char* password = "$ubho&$hreya"; // cryp98745 // $ubho&$hreya  // 19839448
+const char* ssid = "Your SSID"; 
+const char* password = "Your Password"; 
 
 // Server's IP address or hostname
-const char* serverAddress = "192.168.0.139"; // Example: "192.168.1.100"
+const char* serverAddress = "Put Your Server ESP32 IP Address"; // Example: "192.168.1.100"
 
 
 //Relay and LED pins
 #define RELAY_PIN 13  // Relay connected to D7 : GPIO 13
 #define LED_PIN 12    // LED connected to D6 : GPIO 12
 
-
-//--------------
-//
-//#include <ESP8266WiFi.h>
-//#include <ESP8266HTTPClient.h>
-//
-//// WiFi credentials
-//const char* ssid = "Your_SSID";
-//const char* password = "Your_PASSWORD";
-//
-//// Server's IP address or hostname
-//const char* serverAddress = "Server_IP_Address"; // Example: "192.168.1.100"
-//
-//// Relay and LED pins
-//#define RELAY_PIN D8  // Relay connected to D8
-//#define LED_PIN D7    // LED connected to D7
 
 // Create a WiFiClient instance
 WiFiClient wifiClient;
