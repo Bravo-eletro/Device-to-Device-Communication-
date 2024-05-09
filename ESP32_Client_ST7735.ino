@@ -8,20 +8,20 @@
 #include <Adafruit_ST7735.h>
 
 // WiFi credentials
-const char* ssid = "Swapnonil"; // Cryptappz_Lab // Swapnonil // TP-LINK_612A
-const char* password = "$ubho&$hreya"; // cryp98745 // $ubho&$hreya  // 19839448
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD"; 
 
 // Server's IP address or hostname
-const char* serverAddress = "192.168.0.139"; // Example: "192.168.1.100"
+const char* serverAddress = "Put here the IP address of Server esp32"; // Example: "192.168.1.100"
 
-// ST7735 setup
+// ST7735 tft RGB Display setup 
 #define TFT_CS     5   // Chip select pin
 #define TFT_RST    4   // Reset pin
 #define TFT_DC     2   // Data/Command pin
 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
-
+// Define the scrren of text color
 #define ST7735_BLACK    0x0000
 #define ST7735_BLUE     0x001F
 #define ST7735_RED      0xF800
